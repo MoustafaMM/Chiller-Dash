@@ -228,3 +228,5 @@ def update_graph(n_intervals, preprocess_value):
 # Run Dash Web App
 if __name__ == "__main__":
     app.run(debug=True, host="127.0.0.1", port=8050)
+    
+    app = app

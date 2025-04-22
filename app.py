@@ -1,5 +1,11 @@
 import subprocess
 import sys
+# app.py
+from python_hvac_iot_dashboard import app as application
+
+# This exposes the Dash server object to gunicorn
+server = application.server
+
 
 # Paths to your scripts (use forward slashes or raw strings)
 SENDER_SCRIPT = "d:/Master/GUI/Sensor.py"
