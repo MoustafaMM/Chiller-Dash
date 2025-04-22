@@ -1,1 +1,1 @@
-web: gunicorn app:server
+web: gunicorn python_hvac_iot_dashboard:server
